@@ -15,7 +15,7 @@ body{
 
 main{
     display: inline-block;
-    margin-top: 2%;
+    margin-top: 1%;
     padding: 15px;
     position: relative;
 }
@@ -37,7 +37,7 @@ main{
     position: absolute;
     font-weight: 600;
     color: #aaa;
-    top: 54.5%;
+    top: 53.2%;
     right: 27%;
     font-size: clamp(8px, 5vw, 25px);
 }
@@ -71,7 +71,7 @@ main{
     bottom: 10%;
     left: 50%;
     width: 65%;
-    transform: translateX(-57%);
+    transform: translate(-57%, -40%);
     display: flex;
     gap: 20px;
 }
@@ -91,4 +91,25 @@ main{
 .button:active{
     box-shadow: inset -4px 4px 0 #222;
     font-size: 0.9rem ;
+}
+
+.icon_contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.icon_contact a{
+    text-decoration: none;
+}
+
+.telegram a{
+    color: #34B7F1;
+    font-size: 1rem;
+}
+
+.instagram a{
+    color: #C13584;
+    font-size: 1rem;
 }
